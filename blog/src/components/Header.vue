@@ -32,7 +32,7 @@ export default {
 header{
     display: flex;
     justify-content: center;
-    padding: 50px 50px 25px;
+    padding: 50px 50px 0px;
     .left{
         flex: 1;
         .logo{
@@ -40,7 +40,7 @@ header{
                 height: 100px;
                 border-radius: 55%;
                 border-color: teal;
-                border-style: solid;
+                border-style: dotted;
             }
     }
     .center{
@@ -55,7 +55,7 @@ header{
             }
         }
         h1{
-            color: cadetblue;
+            color: dodgerblue;
             font-size: 72px;
             margin: 0;
 
@@ -79,7 +79,8 @@ header{
                 padding: 5px 0px 0px 35px;
                 box-sizing: border-box;
                 appearance: none;
-                border: none;
+                border: double;
+                border-radius: 15px;
                 outline: none;
                 color: green;
                 font-family: Arial, fantasy, sans-serif;
